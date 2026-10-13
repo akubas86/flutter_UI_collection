@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore accidental nested folders
+Users/
+/assets/database/
+*.db
+
+# Ignore Platform folders
+/ios/
+/android/
+/windows/
+/macos/
+/linux/
+/web/
